@@ -29,18 +29,20 @@ Font Awesome icons are used for location, search, and shopping cart functionalit
 Another <div> with the class "panel" displays additional options like "Today's Deals," "Customer Service," etc.
 Following the navbar and panel sections, there's a <div> with the class "hero-section" that likely displays a hero image or message.
 
-Shop Section (lines 233-432):
+**Shop Section:**
 
 A <div> with the class "shop-section" contains multiple product boxes arranged in a grid layout using flexbox properties.
 Each product box is a separate <div> with the class "box".
 Inside the box, a <div> with the class "box-content" displays the product category (e.g., "Health & Personal Care").
 Another <div> with the class "box-img" uses background-image to display the product image.
 A paragraph with text "See More" is likely a link to the product details page.
-Footer Section (lines 433-532):
+
+**Footer Section:**
 
 A <footer> tag defines the website footer.
 The footer contains sections for "Back to Top," links ("Get to Know Us"), logo, legal links ("Conditions of Use", etc.), and copyright information.
-CSS Styling (lines 533-end):
+
+**CSS Styling :**
 
 The CSS styles are likely defined in a separate file named "amazon.css" (linked in the <head> section). This code snippet only shows a small part of the CSS that sets basic styles for various elements like margins, fonts, colors, background colors, etc.
 Overall, this code provides a basic structure for a webpage resembling the Amazon homepage layout. It includes elements like a navigation bar, search bar, product sections, and a footer. The website's visual design and interactivity would depend on the additional CSS styles defined in the "amazon.css" file and any JavaScript code that might be included.
